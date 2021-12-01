@@ -1,0 +1,29 @@
+   69  mkdir git-majonez
+   70  cd git-majonez/
+   71  git init
+   72  nano main.cpp
+   73  git add .
+   74  git commit -m"Initial commit"
+   75  nano main.cpp 
+   76  git add .
+   77  git commit -m"Farewell changed"
+   78  git remote add origin https://github.com/Bartiszny/git-majonez.git
+   79  git push -u origin master
+   80  git push -u origin master
+   81  git checkout -b cs
+   82  git log
+   83  git reset --hard HEAD^
+   84  git log
+   85  nano main.cpp 
+   86  git add .
+   87  git commit -m"Greetings"
+   88  git push origin cs
+   89  git checkout -
+   90  git merge cs
+   91  nano main.cpp 
+   92  git status
+   93  git commit
+   94  git add .
+   95  git commit
+   96  history
+   97  history > history.txt
